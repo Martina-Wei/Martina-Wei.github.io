@@ -54,7 +54,7 @@
             <div class="disply-table">
                 <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
                     <h4>HEY THERE</h4>
-                    <h1>It's Martina<br />Keen innovator</h1> </div>
+                    <h1>It's Martina<br />A keen innovator.</h1> </div>
             </div>
         </div>
     </div>
@@ -139,7 +139,7 @@
         <div class="container">
             <div class="col-md-12">
                 <h4>03</h4>
-                <h1 class="size-50">My <br /> Projects</h1> 
+                <h1 class="size-50">Selected <br /> Projects</h1> 
             </div>
             <!-- main container -->
             <div class="main-container portfolio-inner clearfix">
@@ -165,7 +165,7 @@
                         <div class="no-padding portfolio_container clearfix" data-aos="fade-up">
                             <!-- single work -->
                             <div class="col-md-4 col-sm-6  fashion logo">
-                                <a id="" href="https://github.com/Martina-Wei/Final-Project-Meta-Learning-for-Text-Classfication" class="portfolio_item"> <img src="img/portfolio/01.jpeg" alt="image" class="img-responsive" />
+                                <a id="demo01" href="#animatedModal1" class="portfolio_item"> <img src="img/portfolio/01.jpeg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
                                             <div class="item_info"> <span>Apply Meta Learning on Text classification problem</span> <em>Deep Learning/ NLP</em> </div>
@@ -189,7 +189,7 @@
                             
                             <!-- single work -->
                             <div class="col-md-4 col-sm-6 photography">
-                                <a id="" href="https://github.com/Martina-Wei/ML-Cybersecurity-Project" class="portfolio_item"> <img src="img/portfolio/03.png" alt="image" class="img-responsive" />
+                                <a id="demo03" href="#animatedModal3" class="portfolio_item"> <img src="img/portfolio/03.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
                                             <div class="item_info"> <span>HackML 2020: mitigate backdoor attacks model</span> <em>Deep Learning/ Cyber Security</em> </div>
@@ -246,7 +246,7 @@
     </div>
     <!-- ./contact -->
 
-    <!--DEMO01-->
+    <!--DEMO-->
     <div id="animatedModal" class="popup-modal">
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
         <div id="btn-close-modal" class="close-animatedModal close-popup-modal"> <i class="ion-close-round"></i> </div>
@@ -260,6 +260,64 @@
                         <!-- <br /> <img src="img/portfolio/02.jpg" alt="" class="img-responsive" /> -->
                         <br />
                         <br />
+                        <br /> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--DEMO01-->
+    <div id="animatedModal1" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal1 close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Apply Meta-Learning to Text classification<br /></h2>
+                        <div class="h-50"></div>
+                        <p>Model-Agnostic Meta-learning is a learning scheme which aims for training the model with a small number of samples, resulting in good generalization and fast adaptation ability of the model. </p>
+                        <p>Meta-Learning computation consists of the first order term(gradient term) and the second order term (Hessian or gradient of gradient) which is computationally expensive. </p>
+                        <p>Reptile algorithm is the one of the algorithm which overcome the drawback of second order computation by approximating the original algorithm into the first order MAML with the newly defined gradient or reptile gradient. </p>
+                        <p>It has been observed that the reptile algorithm has a good performance on image classification task. In this project, we mainly focus on apply Reptile on Text classification.</p>
+                        <br /> <img src="img/portfolio/02.jpg" alt="" class="img-responsive" />
+                        <br />
+                        <br />We collected various text data. Following image is the example of one 10-shots-successful task.
+                        <br />
+                        <br /><img src="./img/10shots.png">
+                        <br /><br />
+                        <br />github repo: <a href="https://github.com/Martina-Wei/Final-Project-Meta-Learning-for-Text-Classfication">HERE</a>
+                        <br />
+                        <br /> 
+                        <br /> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--DEMO3-->
+    <div id="animatedModal3" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>CSAW’20 HackML Challenge<br /></h2>
+                        <div class="h-50"></div>
+                        <p>This project is meant to restore the backdoored models.</p>
+                        <p><l>"As ML and AI systems are widely used and adopted across various domains, t
+                            hese models are prone to various attacks and vulnerabilities much like software systems. 
+                            Recent works have shown that neural networks can contain stealthy backdoors that allow attackers to trigger malicious behavior. 
+                            CSAW 2020 HackML competition challenges teams across the world to design and develop novel defense strategies and detection methodologies 
+                            to mitigate powerful backdoor attacks on neural networks."</l></p>
+                        <br /> <img src="img/portfolio/02.jpg" alt="" class="img-responsive" />
+                        <br />
+                        <p>We tried several different ways to mitigate the backdoor.</p>
+                        <p>1. Fine-pruning, 2. Filter via Mutul Info, 3.STIP, the overall performance is 90% up mitigation.</p>
+                        <br />
+                        <br /><br />official HackML20 website: <a href="https://wp.nyu.edu/csaw_hackml_2020/">HERE</a>
+                        <br />github repo: <a href="https://github.com/Martina-Wei/ML-Cybersecurity-Project">HERE</a>
                         <br /> </div>
                 </div>
             </div>
