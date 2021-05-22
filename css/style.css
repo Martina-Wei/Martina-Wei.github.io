@@ -596,6 +596,7 @@ a.active {
 .modal-content {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
     border: none;
+    /* background-color: #A1561C; */
 }
 
 .popup-modal {
@@ -606,7 +607,7 @@ a.active {
     float: right;
     margin: 20px;
     font-size: 22px;
-    opacity: 0;
+    opacity: 1;
     cursor: pointer;
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -617,7 +618,11 @@ a.active {
     right: 14px;
 }
 
-.animatedModal-on .close-popup-modal {
+.animatedModal3-on .close-popup-modal {
+    opacity: 1;
+}
+
+.animatedModal1-on.close-popup-modal{
     opacity: 1;
 }
 
